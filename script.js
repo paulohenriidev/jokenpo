@@ -33,3 +33,9 @@ function playTheGame(human, machine) {
     machineScore.textContent = `Pontuação da Máquina: ${++scoreMachine}`
   }
 }
+function resetGame(){
+    result.textContent = ""
+    tieScore.textContent =  `Empates: 0`
+    yourScore.textContent = `Sua pontuação: 0`
+    machineScore.textContent = `Pontuação da Máquina: 0`
+}
